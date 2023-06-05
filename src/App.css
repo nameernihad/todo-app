@@ -2,20 +2,43 @@
   margin: 0;
   padding: 0;
 }
+.currentTime {
+  font-size: 20px;
+  color: #e4d4d4;
+  font-weight: bold;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
 
+.status{
+  text-align: center;
+  background-color: #3559be;
+  margin-top: 20px;
+  box-shadow: 5px,10px,#fff;
+  border-radius: 5px;
+}
 body {
   background-color: #020631;
 }
-
+.validatonText{
+  color: red;
+}
 .app {
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -10%);
 }
-
+.list{
+  text-align: center;
+}
+h2{
+  margin-top: 10px;
+}
 .app .mainHeading h1 {
   text-align: center;
+
 }
 
 .app h1,
